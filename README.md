@@ -6,32 +6,53 @@ File System Interactions
 The in-memory file system supports the following operations:
 
 mkdir: Create a new directory.
+
 cd: Change the current working directory.
+
 ls: List the contents of a directory.
+
 touch: Create a new empty file.
+
 cat: Display the contents of a file.
+
 echo: Write text to a file.
+
 grep: Search for a pattern in a file.
+
 cp: Copy a file or directory to another location.
+
 mv: Move a file or directory to another location.
+
 rm: Remove a file or directory.
+
 Note: The state is not saved between sessions.
 
 Implementation Details
 
 InMemoryFileSystem Class
 currentDirectory: Represents the current working directory.
+
 fileSystem: An unordered map representing the file system structure.
+
 Methods
 mkdir: Create a directory.
+
 cd: Change directory.
+
 ls: List directory contents.
+
 grep: Search for a pattern in a file.
+
 cat: Display file contents.
+
 touch: Create an empty file.
+
 echo: Write text to a file.
+
 mv: Move a file or directory.
+
 cp: Copy a file or directory.
+
 rm: Remove a file or directory.
 
 Design Decisions
