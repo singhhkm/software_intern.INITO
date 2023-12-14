@@ -1,6 +1,6 @@
 // main.cpp
-#include "fs.h"
-#include "operations.h"
+#include "filesystem.h"
+#include "opr.h"
 #include <bits/stdc++.h>
 using namespace std;
 
