@@ -58,9 +58,13 @@ rm: Remove a file or directory.
 Design Decisions
 
 In-Memory Representation: Utilizes a nested unordered map to represent the file system in memory.
+
 Directory Navigation: Supports navigation to the parent directory (..), root directory (/), and specified absolute paths.
+
 Error Handling: Basic error handling for existing directory or file creation.
+
 Content Storage: File contents are stored in-memory; no state is saved.
+
 Containerization: Dockerfile provided for easy containerization.
 
 Conclusion
