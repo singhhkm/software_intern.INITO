@@ -27,14 +27,18 @@ rm: Remove a file or directory.
 
 Note: The state is not saved between sessions.
 
+
+
 Implementation Details
 
 InMemoryFileSystem Class
+
 currentDirectory: Represents the current working directory.
 
 fileSystem: An unordered map representing the file system structure.
 
 Methods
+
 mkdir: Create a directory.
 
 cd: Change directory.
@@ -55,6 +59,7 @@ cp: Copy a file or directory.
 
 rm: Remove a file or directory.
 
+
 Design Decisions
 
 In-Memory Representation: Utilizes a nested unordered map to represent the file system in memory.
@@ -67,7 +72,10 @@ Content Storage: File contents are stored in-memory; no state is saved.
 
 Containerization: Dockerfile provided for easy containerization.
 
+
+
 Conclusion
+
 The in-memory file system offers fundamental file operations and is designed for modularity. Its Docker containerization simplifies deployment.
 
 
